@@ -74,9 +74,11 @@ const About = () => {
                 Download CV
               </a>
             </div> */}
+            {/* TODO: Re-enable when Works section is back
             <div className="lnk">
               <OnePageLink href="#works">View Recent Works</OnePageLink>
             </div>
+            */}
           </div>
         </div>
         <div className="clear" />
