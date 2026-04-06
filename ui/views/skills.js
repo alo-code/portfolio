@@ -52,7 +52,7 @@ export const CodingSkills = () => {
     { id: 2, title: 'SQL', value: 90 },
     { id: 3, title: 'Python', value: 75 },
     { id: 4, title: 'Solidity', value: 70 },
-    { id: 5, title: 'Rust', value: 40 }
+    { id: 5, title: 'Rust', value: 65 }
   ];
   return (
     <div className="section skills">
@@ -102,12 +102,12 @@ export const Knowledge = () => {
             </li>
             <li>
               <LanguageHighlight src="/images/logos/nodejs-logo.svg">
-                NodeJS / Express (Expert)
+                NodeJS / Express / NestJS (Expert)
               </LanguageHighlight>
             </li>
             <li>
               <LanguageHighlight src="/images/logos/database-logo.svg">
-                SQL / NoSQL (Intermediate)
+                SQL / NoSQL (Advanced)
               </LanguageHighlight>
             </li>
             <li>
@@ -117,22 +117,22 @@ export const Knowledge = () => {
             </li>
             <li>
               <LanguageHighlight src="/images/logos/solidity-logo.svg">
-                Solidity (Beginner)
+                Solidity (Intermediate)
               </LanguageHighlight>
             </li>
             <li>
               <LanguageHighlight src="/images/logos/linux-logo.svg">
-                Linux Systems (Beginner)
-              </LanguageHighlight>
-            </li>
-            <li>
-              <LanguageHighlight src="/images/logos/web-dev-logo.svg">
-                HTML / CSS (Expert)
+                Linux Systems (Intermediate)
               </LanguageHighlight>
             </li>
             <li>
               <LanguageHighlight src="/images/logos/rust-logo.svg">
-                Rust (Beginner)
+                Rust (Advanced)
+              </LanguageHighlight>
+            </li>
+            <li>
+              <LanguageHighlight src="/images/logos/web-dev-logo.svg">
+                LUA (Beginner)
               </LanguageHighlight>
             </li>
           </ul>

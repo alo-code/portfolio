@@ -7,7 +7,6 @@ export const Footer = () => {
       <div className="soc">
         <SocialLink link={LINKS.linkedin} icon="linkedin" />
         <SocialLink link={LINKS.github} icon="github" />
-        <SocialLink link={LINKS.calendly} icon="calendar" />
       </div>
       <div className="copy">
         © {new Date().getFullYear()} Suave Tech Solutions. All rights reserved.

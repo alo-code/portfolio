@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 const NAV_ITEMS = [
   { text: 'Resume', type: 'lnk' },
   { text: 'Skills', type: 'lnk' },
-  { text: 'Works', type: 'lnk' }
+  // { text: 'Works', type: 'lnk' }
   // { text: 'Contact', type: 'btn' }
 ];
 
@@ -22,6 +22,11 @@ export const Header = () => {
           current = section.getAttribute('id');
         }
       });
+
+      // Map services section to skills nav item
+      if (current === 'services') {
+        current = 'skills';
+      }
 
       navLi.forEach((li) => {
         if (current !== null) {

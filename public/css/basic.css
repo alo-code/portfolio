@@ -64,14 +64,14 @@ body.loaded .section {
 /* 2. Container */
 .container {
   position: relative;
-  margin: 30px;
+  margin: 20px;
   overflow: hidden;
   background: #ffffff;
 }
 
 @media (max-width: 840px) {
   .container {
-    margin: 15px;
+    margin: 10px;
   }
 }
 
@@ -86,12 +86,12 @@ body.loaded .section {
   left: 0;
   top: 0;
   width: 100%;
-  height: 18px;
+  height: 10px;
 }
 
 @media (max-width: 840px) {
   .container .line.top {
-    height: 12px;
+    height: 6px;
   }
 }
 
@@ -100,25 +100,25 @@ body.loaded .section {
   top: auto;
   bottom: 0;
   width: 100%;
-  height: 18px;
+  height: 10px;
 }
 
 @media (max-width: 840px) {
   .container .line.bottom {
-    height: 12px;
+    height: 6px;
   }
 }
 
 .container .line.left {
   left: 0;
   top: 0;
-  width: 18px;
+  width: 10px;
   height: 200%;
 }
 
 @media (max-width: 840px) {
   .container .line.left {
-    width: 12px;
+    width: 6px;
   }
 }
 
@@ -126,13 +126,13 @@ body.loaded .section {
   left: auto;
   right: 0;
   top: 0;
-  width: 18px;
+  width: 10px;
   height: 200%;
 }
 
 @media (max-width: 840px) {
   .container .line.right {
-    width: 12px;
+    width: 6px;
   }
 }
 

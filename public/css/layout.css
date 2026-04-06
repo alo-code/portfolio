@@ -18,11 +18,16 @@
 header {
   position: fixed;
   left: 0;
-  top: 18px;
+  top: 10px;
   width: 100%;
   z-index: 100;
   text-align: right;
-  background: #ffffff;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 40%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 0%, black 40%, transparent 100%);
+  padding-bottom: 20px;
   opacity: 1;
   visibility: visible;
   transition: all 0.6s ease 0s;
@@ -74,7 +79,7 @@ header.active .head-top .top-menu ul li {
 
 @media (max-width: 840px) {
   header {
-    top: 12px;
+    top: 6px;
   }
 }
 
@@ -153,6 +158,8 @@ header .head-top .menu-btn:hover span {
     -moz-transition: opacity 0.3s ease 0.5s;
     -webkit-transition: opacity 0.3s ease 0.5s;
     -o-transition: opacity 0.3s ease 0.5s;
+    font-size: 24px;
+    padding-top: 36px;
   }
 }
 
@@ -1042,11 +1049,16 @@ header .head-top .top-menu ul li:hover > .children {
 /* 12. Footer */
 footer {
   position: fixed;
-  bottom: 18px;
+  bottom: 10px;
   left: 0;
   padding: 10px 30px;
+  padding-top: 20px;
   width: 100%;
-  background: #ffffff;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  -webkit-mask-image: linear-gradient(to top, black 0%, black 40%, transparent 100%);
+  mask-image: linear-gradient(to top, black 0%, black 40%, transparent 100%);
   z-index: 100;
   opacity: 1;
   visibility: visible;
@@ -1058,7 +1070,7 @@ footer {
 
 @media (max-width: 840px) {
   footer {
-    bottom: 12px;
+    bottom: 6px;
   }
 }
 

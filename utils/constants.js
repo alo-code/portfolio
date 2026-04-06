@@ -1,6 +1,6 @@
 export const LINKS = {
   linkedin: 'https://www.linkedin.com/in/angello-lazar-b60162155/',
-  github: 'https://github.com/yoyobojo',
+  github: 'https://github.com/alo-code',
   twitter: 'https://twitter.com/0x_ALo',
   calendly: 'https://calendly.com/angellolazar/intro',
   suavetech: 'https://suavetech.solutions',
@@ -9,5 +9,11 @@ export const LINKS = {
   zero: 'https://zerodao.com',
   vmex: 'https://vmex.finance',
   pintswap: 'https://pintswap.exchange',
-  raeri: 'https://raeri.co/'
+  raeri: 'https://raeri.co/',
+  rebarlabs: 'https://rebarlabs.io',
+  baton: 'https://www.baton.co',
+  augustdigital: 'https://augustdigital.io',
+  ups: 'https://www.ups.com',
+  smiledirectclub: 'https://smiledirectclub.com',
+  agco: 'https://www.agcocorp.com'
 };

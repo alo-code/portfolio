@@ -3,23 +3,23 @@ import { TechnologyHighlight } from '@/ui/components';
 const SERVICES_ITEMS = [
   {
     img: 'react-logo.svg',
-    desc: 'You name it, anything from NextJS to EXTJS and everything in between.',
+    desc: 'You name it - React, Next.js, React Native, VueJS, AngularJS, ExtJS. If it renders UI, I have probably shipped something with it.',
     text: 'Frontend Frameworks'
   },
   {
     img: 'api-logo.svg',
-    desc: 'Built some E2E backend services usually using Express frameworks and sometimes websockets.',
+    desc: 'Built and contributed to many Typescript, Python, and Rust backend services using popular frameworks.',
     text: 'Rest APIs & Web Sockets'
   },
   {
     img: 'aws-logo.svg',
-    desc: "There's so much to learn with AWS, but used plenty of their services like EC2 and Kubernetes.",
+    desc: "There's so much to learn with AWS, but setup and used plenty of their services like EC2, Fargate, and Kubernetes.",
     text: 'AWS Services'
   },
   {
-    img: 'azure-devops-logo.svg',
-    desc: 'By no means an expert, but I can make my way around Azure Devops when it comes to CI/CD.',
-    text: 'Azure Devops'
+    img: 'n8n-logo.svg',
+    desc: 'Orchestrate CI/CD pipelines and automation workflows using n8n, github actions, Openclaw, Claude, etc.',
+    text: 'Automation Workflows'
   },
   {
     img: 'foundry-logo.png',
@@ -28,8 +28,18 @@ const SERVICES_ITEMS = [
   },
   {
     img: 'network-logo.svg',
-    desc: 'Started dabbling in this working at PintSwap, a peer-to-peer OTC exchange.',
+    desc: 'Started dabbling in this working at PintSwap, a peer-to-peer OTC exchange that facilitates slippage-free, OTC token trading.',
     text: 'Peer-to-Peer Networking'
+  },
+  {
+    img: 'api-logo.svg',
+    desc: 'Telegram bots, MCP servers, AI-native tooling - if it talks to an LLM or executes transactions by prompt, I have probably built it.',
+    text: 'AI & Bot Development'
+  },
+  {
+    img: 'network-logo.svg',
+    desc: 'Subgraphs, JSON-RPC nodes, mempool explorers, WalletConnect integrations - the unglamorous plumbing that makes on-chain apps actually work.',
+    text: 'Blockchain Infrastructure'
   }
 ];
 

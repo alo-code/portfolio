@@ -47,7 +47,7 @@ const Portfolio = () => {
       <div className="section works section_" id="works">
         <div className="content pt-4">
           <div className="title">
-            <div className="title_inner">Recent Works</div>
+            <div className="title_inner">Fun from the ether</div>
           </div>
           {/* <div className="filter-menu">
             <div className="filters">

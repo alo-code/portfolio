@@ -29,3 +29,21 @@ img.mfp-img {
 .header-navigation .main-menu ul > li.has-children.active > a:after {
   color: #ff344f !important;
 }
+
+.btn-text {
+  background: none;
+  border: none;
+  border-bottom: none;
+  color: #999;
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: inherit;
+  text-decoration: underline;
+  margin-top: 2px;
+}
+
+.btn-text:hover {
+  border-bottom: none;
+  color: #ccc;
+}
