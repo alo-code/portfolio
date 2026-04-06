@@ -22,10 +22,19 @@ header {
   width: 100%;
   z-index: 100;
   text-align: right;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 40%, transparent 100%);
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black 40%,
+    transparent 100%
+  );
   mask-image: linear-gradient(to bottom, black 0%, black 40%, transparent 100%);
   padding-bottom: 20px;
   opacity: 1;
@@ -1054,10 +1063,19 @@ footer {
   padding: 10px 30px;
   padding-top: 20px;
   width: 100%;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  -webkit-mask-image: linear-gradient(to top, black 0%, black 40%, transparent 100%);
+  -webkit-mask-image: linear-gradient(
+    to top,
+    black 0%,
+    black 40%,
+    transparent 100%
+  );
   mask-image: linear-gradient(to top, black 0%, black 40%, transparent 100%);
   z-index: 100;
   opacity: 1;

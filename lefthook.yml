@@ -1,0 +1,14 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      glob: "*.{js,jsx,ts,tsx,json}"
+      run: npx biome check --write {staged_files} && git add {staged_files}
+      stage_fixed: true
+
+pre-push:
+  commands:
+    check:
+      run: npx biome check .
+    build:
+      run: npm run build

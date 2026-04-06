@@ -1,8 +1,8 @@
-import Popup from '@/ui/components/popup/Popup';
 import { Footer } from '@/ui/base/footer';
+import Popup from '@/ui/components/popup/Popup';
 import { Fragment } from 'react';
 import { Header } from './header';
-export const Base = ({ children, dark }) => {
+export const Base = ({ children, dark: _dark }) => {
   return (
     <Fragment>
       <Popup />

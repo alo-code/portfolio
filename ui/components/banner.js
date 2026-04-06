@@ -4,12 +4,12 @@ import { useEffect } from 'react';
 
 export const Banner = ({ pageName, pageLink, dark }) => {
   useEffect(() => {
-    var sections = document.querySelectorAll('.section');
-    sections.forEach(function (section) {
-      section.addEventListener('click', function (event) {
+    const sections = document.querySelectorAll('.section');
+    sections.forEach((section) => {
+      section.addEventListener('click', (event) => {
         if (event.target.classList.contains('mouse')) {
-          var height = window.innerHeight;
-          var scrollOptions = {
+          const height = window.innerHeight;
+          const scrollOptions = {
             top: height - 150,
             behavior: 'smooth' // For smooth scrolling (modern browsers)
           };

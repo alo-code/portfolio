@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 const Clients = () => {
   // Isotope
   const isotope = useRef();
-  const [filterKey, setFilterKey] = useState('*');
+  const [filterKey, _setFilterKey] = useState('*');
   useEffect(() => {
     setTimeout(() => {
       isotope.current = new Isotope('.box-items', {
@@ -41,7 +41,7 @@ const Clients = () => {
         <div className="box-items">
           <div className="box-item">
             <div className="image">
-              <a target="_blank" href="https://www.google.com">
+              <a target="_blank" href="https://www.google.com" rel="noreferrer">
                 <img src="images/clients/client_1.png" alt="" />
                 <span className="info">
                   <span className="centrize full-width">
@@ -55,7 +55,7 @@ const Clients = () => {
           </div>
           <div className="box-item">
             <div className="image">
-              <a target="_blank" href="https://www.google.com">
+              <a target="_blank" href="https://www.google.com" rel="noreferrer">
                 <img src="images/clients/client_2.png" alt="" />
                 <span className="info">
                   <span className="centrize full-width">
@@ -69,7 +69,7 @@ const Clients = () => {
           </div>
           <div className="box-item">
             <div className="image">
-              <a target="_blank" href="https://www.google.com">
+              <a target="_blank" href="https://www.google.com" rel="noreferrer">
                 <img src="images/clients/client_3.png" alt="" />
                 <span className="info">
                   <span className="centrize full-width">
@@ -83,7 +83,7 @@ const Clients = () => {
           </div>
           <div className="box-item">
             <div className="image">
-              <a target="_blank" href="https://www.google.com">
+              <a target="_blank" href="https://www.google.com" rel="noreferrer">
                 <img src="images/clients/client_1.png" alt="" />
                 <span className="info">
                   <span className="centrize full-width">
@@ -97,7 +97,7 @@ const Clients = () => {
           </div>
           <div className="box-item">
             <div className="image">
-              <a target="_blank" href="https://www.google.com">
+              <a target="_blank" href="https://www.google.com" rel="noreferrer">
                 <img src="images/clients/client_2.png" alt="" />
                 <span className="info">
                   <span className="centrize full-width">
@@ -111,7 +111,7 @@ const Clients = () => {
           </div>
           <div className="box-item">
             <div className="image">
-              <a target="_blank" href="https://www.google.com">
+              <a target="_blank" href="https://www.google.com" rel="noreferrer">
                 <img src="images/clients/client_3.png" alt="" />
                 <span className="info">
                   <span className="centrize full-width">

@@ -16,8 +16,9 @@ export const ResumeItem = ({ date, position, company, link, list }) => (
       </span>
     </div>
     <ul className="dotted-list">
-      {list &&
-        list.map((el, i) => <li key={`resume-item-${company}-${i}`}>{el}</li>)}
+      {list?.map((el, i) => (
+        <li key={`resume-item-${company}-${i}`}>{el}</li>
+      ))}
     </ul>
   </div>
 );

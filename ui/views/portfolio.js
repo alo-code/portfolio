@@ -1,8 +1,8 @@
 'use client';
-import Isotope from 'isotope-layout';
-import { Fragment, useCallback, useEffect, useRef, useState } from 'react';
 import { Thumbnail } from '@/ui/components';
 import { WORKS } from '@/utils/works';
+import Isotope from 'isotope-layout';
+import { Fragment, useCallback, useEffect, useRef, useState } from 'react';
 
 const Portfolio = () => {
   // Isotope
@@ -33,14 +33,14 @@ const Portfolio = () => {
         : isotope.current.arrange({ filter: `.${filterKey}` });
     }
   }, [filterKey]);
-  const handleFilterKeyChange = useCallback(
+  const _handleFilterKeyChange = useCallback(
     (key) => () => {
       setFilterKey(key);
     },
     []
   );
 
-  const activeBtn = (value) => (value === filterKey ? 'glitch-effect' : '');
+  const _activeBtn = (value) => (value === filterKey ? 'glitch-effect' : '');
 
   return (
     <Fragment>

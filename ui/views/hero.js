@@ -1,5 +1,5 @@
 'use client';
-import { TypedStrings, GlitchText } from '@/ui/components';
+import { GlitchText, TypedStrings } from '@/ui/components';
 
 const Hero = ({ mouse }) => {
   return (
@@ -28,7 +28,7 @@ const Hero = ({ mouse }) => {
       </div>
       {mouse && (
         <a href="#" className="mouse_btn">
-          <span className="ion ion-mouse"></span>
+          <span className="ion ion-mouse" />
         </a>
       )}
     </div>

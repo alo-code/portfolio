@@ -10,7 +10,7 @@ const EmbedPopup_ = ({ close, videoID }) => {
 
   return (
     <Fragment>
-      <div className="mfp-bg mfp-ready" onClick={() => close(false)}></div>
+      <div className="mfp-bg mfp-ready" onClick={() => close(false)} />
       <div
         className="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready"
         tabIndex={-1}
@@ -41,6 +41,7 @@ const EmbedPopup = () => {
   const [video, setVideo] = useState(false);
   const [videoValue, setVideoValue] = useState(null);
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: intentionally runs once on mount
   useEffect(() => {
     setTimeout(() => {
       const a = document.querySelectorAll('a');

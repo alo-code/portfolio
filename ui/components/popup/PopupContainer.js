@@ -1,11 +1,11 @@
 'use client';
-import { context } from '@/stores/global';
 import useClickOutside from '@/hooks/use-click-outside';
+import { context } from '@/stores/global';
 import { Fragment, useContext } from 'react';
 
 const PopContainer = ({ children, nullValue }) => {
-  const { modalToggle, modal } = useContext(context);
-  let domNode = useClickOutside(() => {
+  const { modalToggle } = useContext(context);
+  const domNode = useClickOutside(() => {
     modalToggle(false);
     nullValue(null);
   });
@@ -18,7 +18,7 @@ const PopContainer = ({ children, nullValue }) => {
           modalToggle(false);
           nullValue(null);
         }}
-      ></div>
+      />
       <div
         className="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-fade mfp-ready"
         tabIndex={-1}

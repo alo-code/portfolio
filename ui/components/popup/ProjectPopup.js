@@ -49,6 +49,7 @@ const ProjectPopup = () => {
             target="_blank"
             className="btn"
             data-text="View Project"
+            rel="noreferrer"
           >
             View Project
           </a>

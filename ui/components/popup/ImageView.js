@@ -2,12 +2,12 @@ import useClickOutside from '@/hooks/use-click-outside';
 import { Fragment, useEffect, useState } from 'react';
 
 const ImgViews = ({ close, src }) => {
-  let domNode = useClickOutside(() => {
+  const domNode = useClickOutside(() => {
     close(false);
   });
   return (
     <Fragment>
-      <div className="mfp-bg mfp-ready" onClick={() => close(false)}></div>
+      <div className="mfp-bg mfp-ready" onClick={() => close(false)} />
       <div
         className="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready"
         tabIndex={-1}

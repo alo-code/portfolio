@@ -1,7 +1,7 @@
 import { useGlobalContext } from '@/stores/global';
 
 export const Thumbnail = (props) => {
-  const { type, category, img, title, description, link } = props;
+  const { type, category, img, title, link } = props;
   const { modalToggle, setPortfolioModal } = useGlobalContext();
 
   switch (type) {
@@ -49,7 +49,12 @@ export const Thumbnail = (props) => {
       return (
         <div className="box-item f-links">
           <div className="image">
-            <a href={link} className="has-popup-link" target="_blank">
+            <a
+              href={link}
+              className="has-popup-link"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={img} alt />
               <span className="info">
                 <span className="centrize full-width">

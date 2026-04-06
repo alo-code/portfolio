@@ -15,9 +15,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --fix",
-    "format": "npx prettier --write .",
-    "prepare": "husky install"
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "format": "biome format --write .",
+    "check": "biome check .",
+    "check:fix": "biome check --write ."
   },
   "dependencies": {
     "fslightbox-react": "^1.7.6",
@@ -29,9 +31,7 @@
     "typed.js": "^2.0.16"
   },
   "devDependencies": {
-    "eslint": "8.56.0",
-    "eslint-config-next": "14.0.4",
-    "husky": "^8.0.3",
-    "prettier": "^3.1.1"
+    "@biomejs/biome": "^1.9.0",
+    "lefthook": "^1.7.0"
   }
 }

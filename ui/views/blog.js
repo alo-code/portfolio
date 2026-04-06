@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 const Blog = ({ dark }) => {
   // Isotope
   const isotope = useRef();
-  const [filterKey, setFilterKey] = useState('*');
+  const [filterKey, _setFilterKey] = useState('*');
   useEffect(() => {
     setTimeout(() => {
       isotope.current = new Isotope('.blog-items', {

@@ -2,7 +2,7 @@ import { context } from '@/stores/global';
 import FsLightbox from 'fslightbox-react';
 import { Fragment, useContext } from 'react';
 const ImageGallery = () => {
-  const { gallery, setGallery } = useContext(context);
+  const { gallery } = useContext(context);
 
   return (
     <Fragment>

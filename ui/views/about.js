@@ -1,6 +1,6 @@
+import { OnePageLink } from '@/ui/components';
 import { LINKS } from '@/utils/constants';
 import { calcTimeDifference } from '@/utils/helpers';
-import { OnePageLink } from '@/ui/components';
 
 const ABOUT_ITEMS = [
   {
@@ -24,10 +24,7 @@ const About = () => {
           <div className="title_inner">About Me</div>
         </div>
         <div className="image">
-          <img
-            src="images/profile-picture.jpg"
-            alt="Angello Lazar Profile Picture"
-          />
+          <img src="images/profile-picture.jpg" alt="Angello Lazar profile" />
         </div>
         <div className="desc">
           <div className="info-list">
@@ -53,6 +50,7 @@ const About = () => {
               href={LINKS.suavetech}
               target="_blank"
               style={{ textDecoration: 'underline' }}
+              rel="noreferrer"
             >
               Suave Tech Solutions
             </a>

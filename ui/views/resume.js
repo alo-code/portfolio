@@ -1,8 +1,8 @@
 'use client';
 
-import { useState } from 'react';
-import { LINKS } from '@/utils/constants';
 import { ResumeItem } from '@/ui/components';
+import { LINKS } from '@/utils/constants';
+import { useState } from 'react';
 
 const Resume = () => {
   const [showMore, setShowMore] = useState(false);
@@ -64,31 +64,30 @@ const Resume = () => {
                   'Managed 6 developers building web3 apps, automations, and e-commerce platforms while leading client engagements'
                 ]}
               />
-                            {showMore && (
+              {showMore && (
                 <>
-              <ResumeItem
-                date="Dec. 2021 - Dec. 2023"
-                company="DataEarn"
-                position="Co-Founder & Software Engineer"
-                link={LINKS.dataearn}
-                list={[
-                  'Architected a universal data parser to clean, normalize, and interpret JSON, HTML, and CSV from platform APIs',
-                  'Built a Next.js/TypeScript app for users to view, manage, and monetize their personal data with secure auth flows',
-                  'Built a Django backend with PostgreSQL and cron-job microservices for automated data ingestion and processing'
-                ]}
-              />
-              <ResumeItem
-                date="June 2021 - Aug. 2022"
-                company="IBM iX"
-                position="Consultant & Software Engineer"
-                link={LINKS.ibmix}
-                list={[
-                  'Built a React/Express dashboard to manage thousands of individuals\u2019 sensitive healthcare records with RBAC',
-                  'Collaborated with and pitched to local governments/clients on new features of the dashboard',
-                  'Worked in an Agile framework using Confluence and Jira for sprint planning, code reviews, and CI/CD workflows'
-                ]}
-              />
-
+                  <ResumeItem
+                    date="Dec. 2021 - Dec. 2023"
+                    company="DataEarn"
+                    position="Co-Founder & Software Engineer"
+                    link={LINKS.dataearn}
+                    list={[
+                      'Architected a universal data parser to clean, normalize, and interpret JSON, HTML, and CSV from platform APIs',
+                      'Built a Next.js/TypeScript app for users to view, manage, and monetize their personal data with secure auth flows',
+                      'Built a Django backend with PostgreSQL and cron-job microservices for automated data ingestion and processing'
+                    ]}
+                  />
+                  <ResumeItem
+                    date="June 2021 - Aug. 2022"
+                    company="IBM iX"
+                    position="Consultant & Software Engineer"
+                    link={LINKS.ibmix}
+                    list={[
+                      'Built a React/Express dashboard to manage thousands of individuals\u2019 sensitive healthcare records with RBAC',
+                      'Collaborated with and pitched to local governments/clients on new features of the dashboard',
+                      'Worked in an Agile framework using Confluence and Jira for sprint planning, code reviews, and CI/CD workflows'
+                    ]}
+                  />
 
                   <ResumeItem
                     date="June 2020 - Aug. 2020"
@@ -138,6 +137,7 @@ const Resume = () => {
               )}
 
               <button
+                type="button"
                 onClick={() => setShowMore(!showMore)}
                 className="btn-text"
               >
@@ -155,8 +155,8 @@ const Resume = () => {
                 <div className="name">New York University</div>
                 <p>
                   B.A. in Economics and a Joint-Minor in Computer Science and
-                  Mathematics from New York University&apos;s College of Arts and
-                  Sciences
+                  Mathematics from New York University&apos;s College of Arts
+                  and Sciences
                 </p>
               </div>
             </div>

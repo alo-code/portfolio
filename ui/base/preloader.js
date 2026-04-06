@@ -1,15 +1,15 @@
 'use client';
-import { useEffect } from 'react';
 import { TypedStrings } from '@/ui/components/typed';
+import { useEffect } from 'react';
 
 export const Preloader = () => {
   useEffect(() => {
-    var preInner = document.querySelector('.preloader .pre-inner');
+    const preInner = document.querySelector('.preloader .pre-inner');
 
     // Fade out .pre-inner element
-    fadeOut(preInner, 2000, function () {
+    fadeOut(preInner, 2000, () => {
       // Preload hide
-      var preloader = document.querySelector('.preloader');
+      const preloader = document.querySelector('.preloader');
       preloader.style.display = 'none';
 
       // Add 'loaded' class to body
@@ -17,9 +17,9 @@ export const Preloader = () => {
     });
 
     function fadeOut(element, duration, callback) {
-      var opacity = 6;
-      var interval = 1000 / 60; // 60 frames per second
-      var step = opacity / (duration / interval);
+      let opacity = 6;
+      const interval = 1000 / 60; // 60 frames per second
+      const step = opacity / (duration / interval);
 
       function updateOpacity() {
         opacity -= step;
@@ -32,7 +32,7 @@ export const Preloader = () => {
           }
         }
       }
-      var fadeInterval = setInterval(updateOpacity, interval);
+      const fadeInterval = setInterval(updateOpacity, interval);
     }
   }, []);
 

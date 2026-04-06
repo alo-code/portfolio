@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 const NAV_ITEMS = [
   { text: 'Resume', type: 'lnk' },
-  { text: 'Skills', type: 'lnk' },
+  { text: 'Skills', type: 'lnk' }
   // { text: 'Works', type: 'lnk' }
   // { text: 'Contact', type: 'btn' }
 ];
@@ -33,7 +33,7 @@ export const Header = () => {
           li.classList.remove('active');
         }
         if (
-          li.getElementsByTagName('a')[0].getAttribute('href') == `#${current}`
+          li.getElementsByTagName('a')[0].getAttribute('href') === `#${current}`
         ) {
           li.classList.add('active');
         }
