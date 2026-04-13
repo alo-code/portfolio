@@ -32,12 +32,12 @@ const SERVICES_ITEMS = [
     text: 'Peer-to-Peer Networking'
   },
   {
-    img: 'api-logo.svg',
+    img: 'ai.svg',
     desc: 'Telegram bots, MCP servers, AI-native tooling - if it talks to an LLM or executes transactions by prompt, I have probably built it.',
     text: 'AI & Bot Development'
   },
   {
-    img: 'network-logo.svg',
+    img: 'blockchain.svg',
     desc: 'Subgraphs, JSON-RPC nodes, mempool explorers, WalletConnect integrations - the unglamorous plumbing that makes on-chain apps actually work.',
     text: 'Blockchain Infrastructure'
   }

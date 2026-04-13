@@ -127,7 +127,7 @@ export const Knowledge = () => {
             </li>
             <li>
               <LanguageHighlight src="/images/logos/rust-logo.svg">
-                Rust (Advanced)
+                Rust (Beginner)
               </LanguageHighlight>
             </li>
             <li>

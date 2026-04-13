@@ -64,16 +64,17 @@ const About = () => {
             godfather.
           </p>
           <div className="flex items-center gap-3">
-            {/* <div className="bts">
+            <div className="bts">
               <a
-                href="/files/alazar-cv.pdf"
+                href="/files/cv-2026-tech-consultant.pdf"
                 target="_blank"
                 className="btn fill"
                 data-text="Download CV"
+                rel="noreferrer"
               >
                 Download CV
               </a>
-            </div> */}
+            </div>
             {/* TODO: Re-enable when Works section is back
             <div className="lnk">
               <OnePageLink href="#works">View Recent Works</OnePageLink>
