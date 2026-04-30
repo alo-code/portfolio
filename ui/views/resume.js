@@ -19,49 +19,51 @@ const Resume = () => {
               <ResumeItem
                 date="Oct. 2025 - Apr. 2026"
                 company="Baton Corporation"
-                position="Software Engineer"
+                position="Software Engineer, Livestreams"
                 link={LINKS.baton}
                 list={[
-                  'Built a custom HLS/DVR livestream player for a cross-platform React Native app serving 30K+ daily active users',
-                  'Developed full-stack features across backend (NestJS/AWS), mobile (React Native), and web (Next.js)',
-                  'Engineered scalable infrastructure on AWS (EC2, Fargate) using NestJS for real-time streaming and microservices',
-                  'Built an AI-native MCP server via on-chain functions and our API, enabling users to execute transactions by prompt'
+                  'Spearheaded the deployment of an AI-native MCP server for 8K+ users to execute on-chain transactions',
+                  'Built a custom HLS/DVR livestream player for mobile and web app serving 30K+ DAU, reducing load time by 34%',
+                  'Engineered real-time participant and cohost stage interactions increasing hosting time by 14% using WS and NATS',
+                  'Implemented XP and DevX tooling, like a multi-context LaunchDarkly XP system, increasing XP accuracy by 21%',
+                  'Reduced React Native build time by 28%, FPS by 40%, and memory allocation by 30%, resulting in +16% view time'
                 ]}
               />
               <ResumeItem
-                date="Feb. 2025 - Present"
-                company="Rebar Labs"
-                position="Co-Founder & Software Engineer"
-                link={LINKS.rebarlabs}
-                list={[
-                  'Built the first MEV-protected transaction endpoint for BTC, shielding users from front-running and sandwich attacks',
-                  'Architected and shipped a real-time Bitcoin mempool explorer with analytics and data pipeline infrastructure',
-                  'Developed core infrastructure in TypeScript and Rust powering APIs, RPC services, and blockchain data pipelines',
-                  'Led product development, CI/CD pipeline design, and hiring to scale the team while maintaining velocity and quality'
-                ]}
-              />
-              <ResumeItem
-                date="Feb. 2024 - Oct. 2025"
+                date="Apr. 2024 - Oct. 2025"
                 company="August Digital"
                 position="Lead Software Engineer"
                 link={LINKS.augustdigital}
                 list={[
-                  'Built an institutional DeFi dashboard in React/TypeScript with a client SDK, increasing AUM by 3x to $600M+',
-                  'Led a team of 4 engineers to build apps powered by REST APIs, JSON-RPC nodes, and subgraphs serving 5K+ users',
-                  'Built 2 Telegram bots for 50+ institutional users to query on-chain data and execute smart contract transactions',
-                  'Implemented WalletConnect protocol integration enabling users to interact with external dApps via proprietary wallets'
+                  'Scaled an institutional web3 dashboard using ReactJS alongside the SDK that increased AUM by 3x to $600M+',
+                  'Led a team of 4 developers to build 4 apps powered by a REST API, RPC requests, and subgraphs for 5K+ users',
+                  'Created 3 Telegram bots for 50+ institutional users to monitor accounts, recall contracts, and execute transactions daily',
+                  'Designed custom WalletConnect enabling users to execute transactions outside our app, increasing volume by +20%',
+                  'Integrated API keys, 30+ EVM networks, and Solana across the JS stack enabling 20+ partners to integrate'
                 ]}
               />
               <ResumeItem
-                date="Aug. 2022 - Present"
+                date="Oct. 2023 - Apr. 2024"
+                company="Rebar Labs"
+                position="Founding Engineer & Advisor"
+                link={LINKS.rebarlabs}
+                list={[
+                  'Engineered a Grafana/Dune-like frontend in a few months and scaled to 110+ users in its alpha phase',
+                  'Architected backend infrastructure that ingested data from 12+ sources and served it via a subgraph and AWS Athena',
+                  'Designed and shipped a real-time Bitcoin mempool explorer with analytics and data pipeline infrastructure',
+                  'Led product development, CI/CD pipeline design, and hiring to scale the team while maintaining velocity and quality'
+                ]}
+              />
+              <ResumeItem
+                date="Aug. 2022 - Feb. 2024"
                 company="Suave Tech Solutions"
-                position="Founder & Software Engineer"
+                position="Founder & Tech Consultant"
                 link={LINKS.suavetech}
                 list={[
-                  'Engineered 30+ full-stack apps and SDKs using React, Node.js, Solidity, Python, Rust, LUA, and TypeScript',
-                  'Designed and delivered scalable infrastructure solutions with cross-functional teams of engineers and stakeholders',
-                  'Consulted clients on scaling distributed systems, real-time communication (WebRTC), and developer documentation',
-                  'Managed 6 developers building web3 apps, automations, and e-commerce platforms while leading client engagements'
+                  'Engineered 60+ CRUD apps, automations, and SDKs with Next.js, n8n, React, Node, Solidity, FastAPI, and more',
+                  'Identified hundreds of business issues, gaps, and opportunities for optimization enabling companies to scale and save',
+                  'Consulted clients on topics from scaling AI sales to 50+ concurrent calls with WebRTC to writing 100+ specs',
+                  'Managed a team of 6 devs and 1 BD focusing on building web3, automations, and ecomm generating +600k/yr'
                 ]}
               />
               {showMore && (
@@ -83,9 +85,10 @@ const Resume = () => {
                     position="Consultant & Software Engineer"
                     link={LINKS.ibmix}
                     list={[
-                      'Built a React/Express dashboard to manage thousands of individuals\u2019 sensitive healthcare records with RBAC',
-                      'Collaborated with and pitched to local governments/clients on new features of the dashboard',
-                      'Worked in an Agile framework using Confluence and Jira for sprint planning, code reviews, and CI/CD workflows'
+                      'Piloted a ReactJS + Express dashboard to 4 local governments to manage 12K+ individuals\u2019 sensitive healthcare data',
+                      'Consulted local governments/clients on 100+ improvements and new features with +65% client approval rating',
+                      'Collaborated with team lead and district manager weekly to scope sprints and discuss new ideas and bottlenecks',
+                      'Worked in a small team of 6 within an Agile framework using Confluence/Jira to tackle tasks efficiently'
                     ]}
                   />
 

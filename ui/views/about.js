@@ -66,7 +66,7 @@ const About = () => {
           <div className="flex items-center gap-3">
             <div className="bts">
               <a
-                href="/files/cv-2026-tech-consultant.pdf"
+                href={LINKS.cv}
                 target="_blank"
                 className="btn fill"
                 data-text="Download CV"

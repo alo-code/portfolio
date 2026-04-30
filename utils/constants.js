@@ -1,4 +1,5 @@
 export const LINKS = {
+  cv: '/files/cv-2026-angello-lazar.pdf',
   linkedin: 'https://www.linkedin.com/in/angello-lazar-b60162155/',
   github: 'https://github.com/alo-code',
   twitter: 'https://twitter.com/0x_ALo',
