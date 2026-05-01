@@ -18,15 +18,15 @@ const Resume = () => {
             <div className="resume-items">
               <ResumeItem
                 date="Oct. 2025 - Apr. 2026"
-                company="Baton Corporation"
+                company="Pump.fun"
                 position="Software Engineer, Livestreams"
-                link={LINKS.baton}
+                link={LINKS.pumpfun}
                 list={[
-                  'Spearheaded the deployment of an AI-native MCP server for 200+ users to execute on-chain transactions',
+                  'Spearheaded the deployment of an AI-native MCP server for thousands of users to get intel and execute transactions',
                   'Built a custom HLS/DVR livestream player for mobile and web app serving 30K+ DAU, reducing video load by ~30%',
-                  'Engineered real-time participant and cohost stage interactions increasing hosting time by ~15% using WS and NATS',
+                  'Engineered real-time participant and cohost stage interactions increasing hosting time by ~17% using WS and NATS',
                   'Implemented XP and DevX tooling, like a multi-context LaunchDarkly XP system, increasing XP accuracy by ~10%',
-                  'Reduced RN mobile build time by 15%, FPS by 30%, and memory allocation by 20%, resulting in +14% view time'
+                  'Reduced RN mobile build time by 15%, FPS by 30%, and memory allocation by 30%, resulting in +14% view time'
                 ]}
               />
               <ResumeItem
@@ -35,11 +35,11 @@ const Resume = () => {
                 position="Lead Software Engineer"
                 link={LINKS.augustdigital}
                 list={[
-                  'Scaled an institutional web3 dashboard using ReactJS alongside the SDK that increased the AUM by 3x to $600M+',
+                  'Scaled an institutional web3 dashboard using ReactJS alongside the SDK that increased the AUM by 3x to $700M+',
                   'Led a team of 4 developers to build 4 apps powered by a REST API, RPC requests, and subgraphs for 2K+ DAU',
                   'Created 3 Telegram bots for 50+ institutional users to monitor accounts, recall contracts, and execute transactions daily',
                   'Designed custom WalletConnect enabling users to execute transactions outside our app increasing volume by +20%',
-                  'Integrated API keys, 30+ EVM networks, and Solana across the JS stack enabling 20+ partners to integrate'
+                  'Integrated API keys, 30+ EVM networks, and Solana across the JS stack enabling 25+ partners to integrate'
                 ]}
               />
               <ResumeItem
@@ -48,10 +48,10 @@ const Resume = () => {
                 position="Founding Engineer & Advisor"
                 link={LINKS.rebarlabs}
                 list={[
-                  'Engineered a Grafana/Dune-like frontend in a few months and scaled to 110+ users in its alpha phase',
-                  'Architected backend infrastructure that ingested data from 7 sources and served it via a subgraph and AWS Athena',
-                  'Designed and shipped a real-time Bitcoin mempool explorer with analytics and data pipeline infrastructure',
-                  'Led product development, CI/CD pipeline design, and hiring to scale the team while maintaining velocity and quality'
+                  'Shipped SQL platform from 0 to 200+ alpha users in months; owned discovery and customer feedback loops',
+                  'Architected data infra ingesting 7 sources via AWS Athena and real-time pipelines; same shape backing RAG/agents',
+                  'Shipped a real-time BTC mempool explorer; WS streaming, time-series indexing, and sub-second analytics layer',
+                  'Designed CI/CD, observability, and on-call patterns; led hiring and onboarding to scale team without losing velocity'
                 ]}
               />
               <ResumeItem
@@ -62,7 +62,7 @@ const Resume = () => {
                 list={[
                   'Engineered 60+ CRUD apps, automations, and SDKs with Next.js, n8n, React, Node, Solidity, FastAPI, and more',
                   'Identified hundreds of business issues, gaps, and opportunities for optimization enabling companies to scale and save',
-                  'Consulted clients on topics from scaling AI sales to 10 concurrent calls with WebRTC to writing 100+ product specs',
+                  'Consulted clients on topics from scaling AI sales to 50+ concurrent calls w/ WebRTC to writing 100+ product specs',
                   'Managed a team of 6 devs and 1 BD focusing on building web3, automations, and ecomm generating +$50k/mo'
                 ]}
               />
@@ -86,7 +86,7 @@ const Resume = () => {
                     link={LINKS.ibmix}
                     list={[
                       'Piloted a ReactJS + Express dashboard to 3 local governments to manage 4K+ individuals\u2019 sensitive healthcare data',
-                      'Consulted local governments/clients on 100+ improvements and new features increasing monthly revenue by $20k',
+                      'Consulted local governments/clients on 100+ improvements and new features increasing monthly revenue by $80k',
                       'Collaborated with team lead and district manager weekly to scope sprints, discuss new ideas, and bottlenecks',
                       'Worked in a small team of 6 within an Agile framework using Confluence/Jira to tackle tasks efficiently'
                     ]}

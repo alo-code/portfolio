@@ -12,7 +12,7 @@ export const LINKS = {
   pintswap: 'https://pintswap.exchange',
   raeri: 'https://raeri.co/',
   rebarlabs: 'https://rebarlabs.io',
-  baton: 'https://www.baton.co',
+  pumpfun: 'https://pump.fun',
   augustdigital: 'https://augustdigital.io',
   ups: 'https://www.ups.com',
   smiledirectclub: 'https://smiledirectclub.com',
